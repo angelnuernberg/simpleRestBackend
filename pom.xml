@@ -62,6 +62,8 @@
 	      <version>2.6.0</version>
 	    </dependency> 
 	    
+	    <!--  use this dependency at runtime to use the embedded hsql db
+	    	  To run it: mvn spring-boot:run -->
 	    <dependency>
 	    	<groupId>org.hsqldb</groupId>
 	    	<artifactId>hsqldb</artifactId>
