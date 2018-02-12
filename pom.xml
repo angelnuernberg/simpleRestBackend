@@ -63,12 +63,13 @@
 	    </dependency> 
 	    
 	    <!--  use this dependency at runtime to use the embedded hsql db
-	    	  To run it: mvn spring-boot:run -->
+	    	  To run it: mvn spring-boot:run 
 	    <dependency>
 	    	<groupId>org.hsqldb</groupId>
 	    	<artifactId>hsqldb</artifactId>
 	    	<scope>runtime</scope>	    
 	    </dependency>
+	    -->
 	</dependencies>
 
 	<dependencyManagement>
